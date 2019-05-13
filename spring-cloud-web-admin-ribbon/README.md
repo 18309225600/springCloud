@@ -1,0 +1,14 @@
+Ribbon是一个负载均衡客户端，可以很好的控制http和tcp的一些行为
+客户端服务（Ribbon+RestTemplate方式）
+需要从Eureka中发现已经注册的服务，并调用实现需求
+
+主类中配置@EnableDiscoveryClient
+配置文件中配置Eureka服务端地址。
+
+需要配置RestTemplate，需要这个restTemplate去调用其他的Eureka服务，此restTemplate最好支持负载均衡的restTemplate
+@LoadBalanced
+
+在请求时，采用Ribbon+restTemplate方式，可以将url换成应用名称，在ribbon中会根据服务名称，转换为服务地址
+
+
+
