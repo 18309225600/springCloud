@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7fc3e0-56f8-4182-8a9c-311917517873" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/ConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/controller/TestConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
@@ -75,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/ConfigClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" selection-start-column="8" selection-end-column="42" />
+            <state relative-caret-position="80">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#368#369#0" expanded="true" />
@@ -86,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="203">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -127,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="127">
               <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
@@ -202,10 +189,10 @@
         <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/controller/TestConfigController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -313,7 +300,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557844720374" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557845052838" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -485,12 +472,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557734886692</updated>
-      <workItem from="1557842292840" duration="2410000" />
+      <workItem from="1557842292840" duration="2558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2410000" />
+    <option name="totallyTimeSpent" value="2558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -500,7 +487,7 @@
       <window_info id="Structure" order="0" sideWeight="0.502551" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
       <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49744898" visible="true" weight="0.34114978" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49744898" visible="true" weight="0.34114978" />
       <window_info id="DB Browser" order="4" weight="0.3299356" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Project Explorer" order="6" weight="0.3299356" />
@@ -527,7 +514,7 @@
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="18" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.4304419" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.5237316" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -913,29 +900,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/ConfigClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="8" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -960,8 +928,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="127">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>

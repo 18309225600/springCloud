@@ -9,7 +9,7 @@ spring:
       profile: dev
 
 server:
-  port: 8889
+  port: 8899
 
 eureka:
   client:
