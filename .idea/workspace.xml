@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7fc3e0-56f8-4182-8a9c-311917517873" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-admin-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-admin-client/spring-cloud-admin-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-admin-client/src/main/java/com/lhf/spring/cloud/admin/client/AdminClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-admin-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-admin/spring-cloud-admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-admin/src/main/java/com/lhf/spring/cloud/admin/AdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-admin/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zipkin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zipkin/src/main/java/com/lhf/spring/cloud/zipkin/ZipkinApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-admin-client/spring-cloud-admin-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-admin-client/spring-cloud-admin-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-admin/spring-cloud-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-admin/spring-cloud-admin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-dependencies/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-admin/spring-cloud-service-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-admin/spring-cloud-service-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-feign/spring-cloud-web-admin-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-feign/spring-cloud-web-admin-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/spring-cloud-web-admin-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/spring-cloud-web-admin-ribbon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
@@ -71,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-admin-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="109">
               <caret line="44" column="56" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="56" />
             </state>
           </provider>
@@ -80,8 +45,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-dependencies/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="76" column="53" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="53" />
+            <state relative-caret-position="368">
+              <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-admin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -129,6 +103,7 @@
       <find>starter-zipkin</find>
       <find>jolokia-core</find>
       <find>spring-boot-admin-starter-client</find>
+      <find>spring-boot-admin-starter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -248,6 +223,24 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-admin-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,7 +293,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557849645623" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557849964128" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-admin-client/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -496,12 +489,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557734886692</updated>
-      <workItem from="1557842292840" duration="7313000" />
+      <workItem from="1557842292840" duration="7559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7313000" />
+    <option name="totallyTimeSpent" value="7559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -511,7 +504,7 @@
       <window_info id="Structure" order="0" sideWeight="0.502551" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
       <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49744898" weight="0.34114978" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49744898" weight="0.19364598" />
       <window_info id="DB Browser" order="4" weight="0.3299356" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Project Explorer" order="6" weight="0.3299356" />
@@ -549,14 +542,14 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info active="true" anchor="right" id="Maven" order="8" visible="true" weight="0.42586988" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.290469" />
     </layout>
     <layout-to-restore>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Structure" order="1" sideWeight="0.502551" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49744898" visible="true" weight="0.34114978" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49744898" visible="true" weight="0.19364598" />
       <window_info id="DB Browser" order="5" weight="0.3299356" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Project Explorer" order="7" weight="0.3299356" />
@@ -577,13 +570,13 @@
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.36824876" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.36824876" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="18" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.32569557" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Bean Validation" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -594,7 +587,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.25189108" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.290469" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -964,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="70" column="57" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-admin-client/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -992,15 +978,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-admin-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="109">
           <caret line="44" column="56" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-dependencies/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="76" column="53" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="53" />
+        <state relative-caret-position="368">
+          <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
         </state>
       </provider>
     </entry>
