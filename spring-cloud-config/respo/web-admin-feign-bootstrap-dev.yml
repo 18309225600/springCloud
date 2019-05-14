@@ -19,6 +19,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-
-
-foo:  version is dev

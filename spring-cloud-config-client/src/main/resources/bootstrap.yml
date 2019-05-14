@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
-      name: web-admin-feign-bootstrap
+      name: config-client-bootstrap
       label: master
       profile: dev
 
