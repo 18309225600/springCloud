@@ -1,6 +1,7 @@
 package com.lhf.spring.cloud.web.admin.ribbon.service.impl;
 
 import com.lhf.spring.cloud.web.admin.ribbon.service.AdminService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -18,7 +19,12 @@ public class AdminServiceImpl implements AdminService {
     private RestTemplate restTemplate;
 
     @Override
+    @HystrixCommand(fallbackMethod = "hiError")
     public String sayHi(String message){
         return restTemplate.getForObject("http://spring-cloud-service-admin/admin/hi?message="+message,String.class);
+    }
+
+    public String hiError(String message){
+        return "Hystrix ribbon message is "+message;
     }
 }
