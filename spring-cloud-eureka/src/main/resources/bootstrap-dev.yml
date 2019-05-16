@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-cloud-eureka
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: eureka-bootstrap
+      label: master
+      profile: dev
