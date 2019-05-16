@@ -1,6 +1,7 @@
-spring-cloud-dependencies 项目用于管理整个系统中所有项目的依赖
+spring-cloud-dependencies 用于管理整个系统中所有项目的依赖
+所有的项目都会依赖本项目进行统一的依赖版本管理
 
-所有的项目都会依赖项目进行依赖的版本管理
+
 
 pom分析：
 repositories：配置项目下载依赖时的第三方库
