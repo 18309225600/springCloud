@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7fc3e0-56f8-4182-8a9c-311917517873" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-admin-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-admin-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-admin-client/spring-cloud-admin-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-admin-client/spring-cloud-admin-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-admin/spring-cloud-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-admin/spring-cloud-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-service-admin/spring-cloud-service-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-service-admin/spring-cloud-service-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-feign/spring-cloud-web-admin-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-feign/spring-cloud-web-admin-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/spring-cloud-web-admin-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/spring-cloud-web-admin-ribbon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zipkin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zipkin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
@@ -51,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -69,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+              <caret line="14" column="52" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -154,10 +141,10 @@
         <option value="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/README.md" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml" />
       </list>
     </option>
   </component>
@@ -491,12 +478,12 @@
       <workItem from="1557889495004" duration="18000" />
       <workItem from="1557889817706" duration="627000" />
       <workItem from="1557890889875" duration="57000" />
-      <workItem from="1557973862676" duration="1800000" />
+      <workItem from="1557973862676" duration="1913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10862000" />
+    <option name="totallyTimeSpent" value="10975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -964,20 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -988,7 +961,21 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
