@@ -3,6 +3,7 @@ spring-cloud-zipkin 分布式链路追踪系统
 用于对分布式微服务中调用关系的分析
 
 zipkin server 搭建
+    主类注解：@EnableZipkinServer
     pom：
         <dependency>
             <groupId>io.zipkin.java</groupId>

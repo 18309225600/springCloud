@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7fc3e0-56f8-4182-8a9c-311917517873" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config/respo/zipkin-bootstrap-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config/respo/zipkin-bootstrap-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/respo/zuul-bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/respo/zuul-bootstrap-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/bootstrap-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/bootstrap-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-zipkin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zipkin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/bootstrap-prod.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
@@ -38,17 +41,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-prod.yml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/bootstrap-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
@@ -57,10 +51,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/bootstrap-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -94,21 +115,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/java/com/lhf/spring/cloud/web/admin/feign/service/hystrix/AdminServiceHystrix.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/java/com/lhf/spring/cloud/web/admin/feign/WebAdminFeignApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/java/com/lhf/spring/cloud/web/admin/feign/config/HystrixDashboardConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/lhf/spring/cloud/zuul/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-service-admin/src/main/java/com/lhf/spring/cloud/service/admin/ServiceAdminApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/lhf/spring/cloud/zuul/fallback/WebAdminFeignFallbackProvider.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/lhf/spring/cloud/zuul/filters/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/java/com/lhf/spring/cloud/config/ConfigApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/ConfigClientApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/controller/TestConfigController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-config/respo/config-client-bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/respo/config-client-bootstrap-test.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
@@ -133,11 +143,9 @@
         <option value="$PROJECT_DIR$/spring-cloud-web-admin-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/README.md" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-zipkin/README.md" />
         <option value="$PROJECT_DIR$/spring-cloud-config/respo/zipkin-bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-dev.yml" />
@@ -145,6 +153,19 @@
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-prod.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zipkin/README.md" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/README.md" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka/README.md" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/respo/zuul-bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/respo/zuul-bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul/README.md" />
+        <option value="$PROJECT_DIR$/spring-cloud-web-admin-feign/README.md" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/bootstrap-prod.yml" />
       </list>
     </option>
   </component>
@@ -223,25 +244,25 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-web-admin-feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-web-admin-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-web-admin-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-zipkin" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-web-admin-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -263,7 +284,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557849964128" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-config/respo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -271,10 +293,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springCloud\spring-cloud-web-admin-feign\src\main\resources" />
       <recent name="D:\springCloud\spring-cloud-config\respo" />
+      <recent name="D:\springCloud\spring-cloud-zuul\src\main\resources" />
       <recent name="D:\springCloud\spring-cloud-zipkin\src\main\resources" />
       <recent name="D:\springCloud\spring-cloud-eureka\src\main\resources" />
-      <recent name="E:\springCloud\spring-cloud-config\respo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,6 +448,8 @@
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhf.spring.cloud.zuul.ZuulApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -471,12 +496,12 @@
       <workItem from="1557889495004" duration="18000" />
       <workItem from="1557889817706" duration="627000" />
       <workItem from="1557890889875" duration="57000" />
-      <workItem from="1557973862676" duration="4863000" />
+      <workItem from="1557973862676" duration="12577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13925000" />
+    <option name="totallyTimeSpent" value="21639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -507,13 +532,13 @@
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.36777776" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.36777776" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="18" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" visible="true" weight="0.39555556" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.39555556" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -579,113 +604,8 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/lhf/spring/cloud/zuul/filters/LoginFilter.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/lhf/spring/cloud/zuul/ZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/java/com/lhf/spring/cloud/config/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/ConfigClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/config-client-bootstrap-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/config-client-bootstrap-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/java/com/lhf/spring/cloud/web/admin/feign/WebAdminFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/lhf/spring/cloud/config/client/controller/TestConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml" />
     <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/java/com/lhf/spring/cloud/zipkin/ZipkinApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-admin/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -769,24 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-ribbon/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -825,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-ribbon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -839,24 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -874,38 +759,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/java/com/lhf/spring/cloud/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -923,38 +780,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/zipkin-bootstrap-prod.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/zipkin-bootstrap-dev.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/zipkin-bootstrap-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
+        <state relative-caret-position="147">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/java/com/lhf/spring/cloud/zipkin/ZipkinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/java/com/lhf/spring/cloud/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/java/com/lhf/spring/cloud/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/eureka-bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="16" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="60" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/zuul-bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/bootstrap-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zipkin/src/main/resources/bootstrap-prod.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/lhf/spring/cloud/zuul/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/zuul-bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/respo/web-admin-feign-bootstrap-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-web-admin-feign/src/main/resources/bootstrap-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
